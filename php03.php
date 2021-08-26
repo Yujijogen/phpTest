@@ -64,6 +64,7 @@ date_default_timezone_set('UTC');
 echo "July 1, 2000 is on a" .date("l", mktime(0, 0, 0, 7, 1, 2000));
 
 //date
+echo date('Y-m-d H:i:s', 10);
     
 
 
